@@ -54,3 +54,14 @@ This project is intentionally simple and ready to use, but there are many ways y
 - Deploy predictive models as a microservice.
 
 Feel free to adapt this repository to suit your interests and to demonstrate your analytical capabilities.
+
+## Usage example
+
+After cloning the repository and installing the dependencies, you can run the notebook to explore the dataset and build models. Below is a quick summary of the steps:
+
+1. Load the synthetic data using pandas.
+2. Use seaborn and matplotlib to visualize key relationships, such as revenue by product category or correlation between marketing spend and units purchased.
+3. Fit a regression model to predict revenue using features like units purchased and marketing spend.
+4. Fit a classification model to identify high purchase activity.
+
+Refer to the `analysis_notebook.ipynb` for the complete analysis and code.
